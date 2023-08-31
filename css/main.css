@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+.container {
+  /* overflow: hidden !important; */
+}
+
+/* header design start */
+header {
+  background-color: #fff;
+  box-shadow: 2px 0px 16px rgb(48, 47, 47);
+  position: relative;
+  z-index: 99;
+}
+
+.navbar-brand {
+  font-size: 15px !important;
+  font-weight: 500;
+}
+.navbar-brand i {
+  font-size: 15px !important;
+}
+.app-store {
+  width: 30px !important;
+  height: 30px !important;
+  background-image: url("../img/homepage-sprite.png") !important;
+  background-position: 0px 0px !important;
+}
+.play-store {
+  width: 30px !important;
+  height: 30px !important;
+  background-image: url("../img/homepage-sprite.png") !important;
+  background-position: -35px 0px !important;
+}
+.shopping {
+  height: 25px !important;
+  width: 25px !important;
+  background-size: 585px auto !important;
+  background-position-y: 1px !important;
+  background-image: url("../img/homepage-sprite.png") !important;
+  background-position-x: -47px !important;
+}
+
+.hongKong {
+  background-image: url("../img/homepage-sprite.png");
+  background-position: -270px -585px;
+  width: 25px;
+  height: 15px;
+}
+.country {
+  height: 25px !important;
+  width: 25px !important;
+  background-size: 585px auto !important;
+  background-position-y: 1px !important;
+  background-image: url("../img/homepage-sprite.png") !important;
+  background-position-x: -71px !important;
+}
+
+.Account {
+  height: 25px !important;
+  width: 25px !important;
+  background-size: 585px auto !important;
+  background-position-y: 1px !important;
+  background-image: url("../img/homepage-sprite.png") !important;
+  background-position-x: -96px !important;
+}
+/* .navIcons i {
+  font-size: 20px;
+}
+.fa-apple {
+  font-size: 25px !important;
+}
+.fa-angle-down {
+  font-size: 13px !important;
+  margin-top: 2px !important;
+}
+.Delivery {
+  margin-right: 5px !important;
+}
+
+.icons i {
+  font-size: 14px !important;
+} */
+
+/* header design Ends */
+
+/* section 1 design start */
+#section1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* section 1 design Ends */
+
+/* section 2 design start */
+
+.img1 {
+  /* height: 100%; */
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position: 0px -102px;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.img2 {
+  /* height: 100%; */
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position: -65px -102px;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.img3 {
+  /* height: 100%; */
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position: -130px -102px;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.img4 {
+  /* height: 100%; */
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position: -195px -102px;
+  background-repeat: no-repeat;
+  background-clip: cover;
+  margin: auto;
+  padding-bottom: 5px;
+}
+/* section 2 design Ends */
+
+/* section 4 design start */
+
+.section4Img1 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img2 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img3 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img4 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img5 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img6 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+
+/* second row */
+.section4Img7 {
+  background-image: url("../img/homepage-sprite.png");
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+  width: 50px;
+  background-position-y: -172px;
+}
+.section4Img8 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img9 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img10 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img11 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.section4Img12 {
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -172px;
+  margin: 0px auto 10px;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+
+/* section 4 design Ends */
+
+/* section 7 design start */
+.imgCard1 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/636f86c30f560537a67c5b42-c4-energy-drink-superhuman-performance.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.imgCard2 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/63866e5fdb5c442b6c675f13-zoa-energy-drink-bundle-all-16oz.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.imgCard3 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/63bc4841c68eea5d762f8773-lucozade-energy-original-6-x-380ml.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.imgCard4 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/63bce24daee2275edf2990b3-energy-drink-bang-potent-brain-and.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+/* section 7 design Ends */
+
+/* section 8 desgin start */
+
+.section8BackgroundImg {
+  background-image: url("../img/gift-store-background.jpg.webp");
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card_img {
+  width: 10rem;
+  height: 100%;
+  background-image: url("../img/section8_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section 8 desgin Ends */
+
+/* section 9 design start */
+.section9cardImg {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/81NntEKxCLL._AC_SY300._SX._UX._SY._UY_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.section9cardImg2 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/61cgECvr5BL._AC_SL300_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.section9cardImg3 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/511-3cL17xL._AC_SL300_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.section9cardImg4 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/71PdM3DgBPL._AC_SL300_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.section9cardImg5 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/71PRSx7CJRS._AC_SL300_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+.section9cardImg6 {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background-image: url("../img/LATESTDEALS/61PhULdGFAL._AC_SL300_.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 30px; */
+  margin: 30px 30px !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+}
+
+.persent_Img {
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-position-y: -474px;
+  background-image: url("../img/homepage-sprite.png");
+}
+
+.backGroundImg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/LATESTDEALS/bg-sale.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.right_content {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/LATESTDEALS/deal.png.webp");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+/* section 9 design Ends */
+
+/* footer design start */
+
+.footerLogo {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.footerLogo2 {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.footerLogo3 {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.footerLogo4 {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.footerLogo5 {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.footerLogo6 {
+  margin-right: 10px;
+  display: block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/homepage-sprite.png");
+  background-position-y: -346px;
+}
+.logo-2 {
+  background-position-x: -32px;
+}
+.logo-3 {
+  background-position-x: -64px;
+}
+.logo-4 {
+  background-position-x: -96px;
+}
+.logo-5 {
+  background-position-x: -128px;
+}
+.logo-6 {
+  background-position-x: -192px;
+}
+
+footer ul li a:hover {
+  color: orange !important;
+}
+
+.footer_content {
+  height: 50px;
+  min-width: 120px;
+  margin-right: 10px;
+  display: block !important;
+  background-image: url("../img/homepage-sprite.png");
+}
+
+.apps-store-footer {
+  background-position: 0px -798px;
+}
+.play-store-footer {
+  background-position: -120px -798px;
+}
+
+/* footer design Ends */
+
+/* mobile responsive */
+
+@media screen and (max-width: 768px) {
+  .section6CardBody {
+    margin-top: 35px !important;
+  }
+  h5 {
+    font-size: 15px !important;
+  }
+  .section6CardBody h5 {
+    font-size: 1.8rem;
+  }
+  a.btn.btn-warning.fw-bold.px-4.py-2 {
+    margin-bottom: 8px;
+  }
+  img.card-img.mb-5.my-5.p-4 {
+    padding: 0px !important;
+  }
+  .sectopm9Banner {
+    margin-top: 10px !important;
+  }
+}
